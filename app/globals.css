@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colours — from your Stitch "Trauma-Informed Sanctuary" design system */
+  --color-surface: #f1fcf4;
+  --color-surface-dim: #d2ddd5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #ebf6ef;
+  --color-surface-container: #e6f1e9;
+  --color-surface-container-high: #e0ebe3;
+  --color-surface-container-highest: #dae5de;
+
+  --color-on-surface: #141e19;
+  --color-on-surface-variant: #414942;
+  --color-outline: #717971;
+  --color-outline-variant: #c1c9bf;
+
+  --color-primary: #316342;
+  --color-primary-container: #4a7c59;
+  --color-primary-on: #ffffff;
+  --color-primary-on-container: #e1ffe5;
+
+  --color-secondary: #895200;
+  --color-secondary-container: #fead4f;
+  --color-secondary-on: #ffffff;
+  --color-secondary-on-container: #704200;
+
+  --color-tertiary: #9b3929;
+  --color-tertiary-container: #bb503f;
+  --color-tertiary-on: #ffffff;
+
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-error-on: #ffffff;
+
+  /* Typography */
+  --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+  /* Corner radius */
+  --radius-sm: 0.5rem;
+  --radius-DEFAULT: 1rem;
+  --radius-md: 1.5rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+}
+
+/* ===== Counsellor Dashboard — "Serene Clinical" design system ===== */
+@theme {
+  --color-clinical-surface: #f7f9fb;
+  --color-clinical-surface-container: #eceef0;
+  --color-clinical-surface-container-low: #f2f4f6;
+  --color-clinical-card: #ffffff;
+  --color-clinical-border: #e2e8f0;
+
+  --color-clinical-on-surface: #191c1e;
+  --color-clinical-on-surface-variant: #404946;
+
+  --color-clinical-primary: #0e5246;
+  --color-clinical-primary-on: #ffffff;
+  --color-clinical-secondary: #2a6675;
+  --color-clinical-tertiary: #2a4c62;
+
+  --color-risk-low-text: #047857;
+  --color-risk-low-bg: #ecfdf5;
+  --color-risk-low-border: #a7f3d0;
+
+  --color-risk-medium-text: #b45309;
+  --color-risk-medium-bg: #fffbeb;
+  --color-risk-medium-border: #fde68a;
+
+  --color-risk-high-text: #c2410c;
+  --color-risk-high-bg: #fff7ed;
+  --color-risk-high-border: #ffedd5;
+
+  --color-risk-critical-text: #991b1b;
+  --color-risk-critical-bg: #fef2f2;
+  --color-risk-critical-border: #fecaca;
+
+  --font-clinical-heading: var(--font-plus-jakarta), ui-sans-serif, sans-serif;
+  --font-clinical-body: var(--font-inter), ui-sans-serif, sans-serif;
+}
+
+
+/* ===== Admin Dashboard — "Clinical Governance" design system ===== */
+@theme {
+  --color-admin-surface: #f7f9fb;
+  --color-admin-card: #ffffff;
+  --color-admin-surface-container: #eceef0;
+  --color-admin-surface-container-low: #f2f4f6;
+  --color-admin-border: #e0e3e5;
+
+  --color-admin-on-surface: #191c1e;
+  --color-admin-on-surface-variant: #45474c;
+
+  --color-admin-primary: #091426;
+  --color-admin-primary-on: #ffffff;
+  --color-admin-secondary: #006a61;
+  --color-admin-secondary-container: #86f2e4;
+
+  --font-admin: var(--font-inter), ui-sans-serif, sans-serif;
+}
